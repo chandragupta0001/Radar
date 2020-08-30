@@ -1,0 +1,43 @@
+NOTE : Works with all available python packages in the module, check using conda list command
+For conda env creation we recommend apps/anaconda/3EnvCreation module
+2020-08-23 21:20:00.581858: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-08-23 21:20:00.787738: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K40m major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:02:00.0
+2020-08-23 21:20:00.879811: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2020-08-23 21:20:01.215676: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2020-08-23 21:20:01.403382: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2020-08-23 21:20:01.893440: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2020-08-23 21:20:02.172074: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2020-08-23 21:20:02.411464: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2020-08-23 21:20:05.038957: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-08-23 21:20:05.043035: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2020-08-23 21:20:05.073117: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-08-23 21:20:05.817119: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2496950000 Hz
+2020-08-23 21:20:05.829453: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55b811c6c6a0 executing computations on platform Host. Devices:
+2020-08-23 21:20:05.829894: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2020-08-23 21:20:05.955788: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55b811c7efa0 executing computations on platform CUDA. Devices:
+2020-08-23 21:20:05.955852: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Tesla K40m, Compute Capability 3.5
+2020-08-23 21:20:05.970933: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K40m major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:02:00.0
+2020-08-23 21:20:05.971042: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2020-08-23 21:20:05.971085: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2020-08-23 21:20:05.971123: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2020-08-23 21:20:05.971179: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2020-08-23 21:20:05.971224: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2020-08-23 21:20:05.971265: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2020-08-23 21:20:05.971309: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-08-23 21:20:05.972835: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2020-08-23 21:20:05.973689: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2020-08-23 21:20:05.977390: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-08-23 21:20:05.977442: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2020-08-23 21:20:05.978218: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2020-08-23 21:20:05.982764: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10791 MB memory) -> physical GPU (device: 0, name: Tesla K40m, pci bus id: 0000:02:00.0, compute capability: 3.5)
+2020-08-23 21:20:28.021290: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 6029312000 exceeds 10% of system memory.
+2020-08-23 21:20:37.624282: W tensorflow/core/grappler/optimizers/implementation_selector.cc:310] Skipping optimization due to error while loading function libraries: Invalid argument: Functions '__inference___backward_standard_lstm_3159_3630' and '__inference___backward_cudnn_lstm_with_fallback_2891_3071_specialized_for_StatefulPartitionedCall_at___inference_distributed_function_3824' both implement 'lstm_c94b812f-0f1a-4bef-a772-7f16466fdede' but their signatures do not match.
+2020-08-23 21:20:37.734261: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2020-08-23 21:20:38.081138: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-08-23 21:20:39.430787: W tensorflow/stream_executor/cuda/redzone_allocator.cc:312] Not found: ./bin/ptxas not found
+Relying on driver to perform ptx compilation. This message will be only logged once.
+2020-08-23 21:29:47.960536: W tensorflow/core/grappler/optimizers/implementation_selector.cc:310] Skipping optimization due to error while loading function libraries: Invalid argument: Functions '__inference_cudnn_lstm_with_fallback_6950' and '__inference_cudnn_lstm_with_fallback_6950_specialized_for_sequential_lstm_StatefulPartitionedCall_at___inference_distributed_function_7197' both implement 'lstm_b7dbc9bc-a113-47be-b41f-ab23560cd9bf' but their signatures do not match.

@@ -1,0 +1,410 @@
+loading module
+loading images
+Total files :  4600
+train data: 
+(16001, 100, 1024)
+test data: 
+(1601, 100, 1024)
+Train on 16001 samples, validate on 801 samples
+Epoch 1/200
+16001/16001 - 42s - loss: 1.5180 - sparse_categorical_accuracy: 0.4425 - val_loss: 0.5704 - val_sparse_categorical_accuracy: 0.7828
+Epoch 2/200
+16001/16001 - 32s - loss: 0.4802 - sparse_categorical_accuracy: 0.8261 - val_loss: 0.3041 - val_sparse_categorical_accuracy: 0.8876
+Epoch 3/200
+16001/16001 - 32s - loss: 0.2816 - sparse_categorical_accuracy: 0.9022 - val_loss: 0.1609 - val_sparse_categorical_accuracy: 0.9463
+Epoch 4/200
+16001/16001 - 32s - loss: 0.1808 - sparse_categorical_accuracy: 0.9396 - val_loss: 0.1141 - val_sparse_categorical_accuracy: 0.9638
+Epoch 5/200
+16001/16001 - 32s - loss: 0.1551 - sparse_categorical_accuracy: 0.9485 - val_loss: 0.1025 - val_sparse_categorical_accuracy: 0.9700
+Epoch 6/200
+16001/16001 - 32s - loss: 0.1465 - sparse_categorical_accuracy: 0.9513 - val_loss: 0.0826 - val_sparse_categorical_accuracy: 0.9750
+Epoch 7/200
+16001/16001 - 31s - loss: 0.1315 - sparse_categorical_accuracy: 0.9573 - val_loss: 0.1288 - val_sparse_categorical_accuracy: 0.9613
+Epoch 8/200
+16001/16001 - 31s - loss: 0.1117 - sparse_categorical_accuracy: 0.9646 - val_loss: 0.1336 - val_sparse_categorical_accuracy: 0.9663
+Epoch 9/200
+16001/16001 - 31s - loss: 0.1031 - sparse_categorical_accuracy: 0.9674 - val_loss: 0.0785 - val_sparse_categorical_accuracy: 0.9800
+Epoch 10/200
+16001/16001 - 31s - loss: 0.0942 - sparse_categorical_accuracy: 0.9701 - val_loss: 0.1359 - val_sparse_categorical_accuracy: 0.9663
+Epoch 11/200
+16001/16001 - 31s - loss: 0.0854 - sparse_categorical_accuracy: 0.9729 - val_loss: 0.0606 - val_sparse_categorical_accuracy: 0.9838
+Epoch 12/200
+16001/16001 - 32s - loss: 0.0910 - sparse_categorical_accuracy: 0.9714 - val_loss: 0.1363 - val_sparse_categorical_accuracy: 0.9675
+Epoch 13/200
+16001/16001 - 31s - loss: 0.0825 - sparse_categorical_accuracy: 0.9736 - val_loss: 0.0440 - val_sparse_categorical_accuracy: 0.9838
+Epoch 14/200
+16001/16001 - 31s - loss: 0.0770 - sparse_categorical_accuracy: 0.9755 - val_loss: 0.0552 - val_sparse_categorical_accuracy: 0.9800
+Epoch 15/200
+16001/16001 - 32s - loss: 0.0723 - sparse_categorical_accuracy: 0.9772 - val_loss: 0.0395 - val_sparse_categorical_accuracy: 0.9913
+Epoch 16/200
+16001/16001 - 31s - loss: 0.0699 - sparse_categorical_accuracy: 0.9773 - val_loss: 0.0654 - val_sparse_categorical_accuracy: 0.9775
+Epoch 17/200
+16001/16001 - 31s - loss: 0.0576 - sparse_categorical_accuracy: 0.9813 - val_loss: 0.0434 - val_sparse_categorical_accuracy: 0.9875
+Epoch 18/200
+16001/16001 - 31s - loss: 0.0554 - sparse_categorical_accuracy: 0.9818 - val_loss: 0.0636 - val_sparse_categorical_accuracy: 0.9800
+Epoch 19/200
+16001/16001 - 32s - loss: 0.0486 - sparse_categorical_accuracy: 0.9838 - val_loss: 0.0381 - val_sparse_categorical_accuracy: 0.9863
+Epoch 20/200
+16001/16001 - 32s - loss: 0.0555 - sparse_categorical_accuracy: 0.9820 - val_loss: 0.0329 - val_sparse_categorical_accuracy: 0.9888
+Epoch 21/200
+16001/16001 - 32s - loss: 0.0510 - sparse_categorical_accuracy: 0.9829 - val_loss: 0.0554 - val_sparse_categorical_accuracy: 0.9800
+Epoch 22/200
+16001/16001 - 31s - loss: 0.0511 - sparse_categorical_accuracy: 0.9834 - val_loss: 0.0350 - val_sparse_categorical_accuracy: 0.9913
+Epoch 23/200
+16001/16001 - 31s - loss: 0.0427 - sparse_categorical_accuracy: 0.9856 - val_loss: 0.0252 - val_sparse_categorical_accuracy: 0.9950
+Epoch 24/200
+16001/16001 - 31s - loss: 0.0342 - sparse_categorical_accuracy: 0.9879 - val_loss: 0.0256 - val_sparse_categorical_accuracy: 0.9900
+Epoch 25/200
+16001/16001 - 32s - loss: 0.0416 - sparse_categorical_accuracy: 0.9854 - val_loss: 0.0158 - val_sparse_categorical_accuracy: 0.9975
+Epoch 26/200
+16001/16001 - 31s - loss: 0.0340 - sparse_categorical_accuracy: 0.9885 - val_loss: 0.0264 - val_sparse_categorical_accuracy: 0.9925
+Epoch 27/200
+16001/16001 - 31s - loss: 0.0358 - sparse_categorical_accuracy: 0.9882 - val_loss: 0.0455 - val_sparse_categorical_accuracy: 0.9838
+Epoch 28/200
+16001/16001 - 31s - loss: 0.0307 - sparse_categorical_accuracy: 0.9901 - val_loss: 0.0272 - val_sparse_categorical_accuracy: 0.9938
+Epoch 29/200
+16001/16001 - 32s - loss: 0.0284 - sparse_categorical_accuracy: 0.9895 - val_loss: 0.0161 - val_sparse_categorical_accuracy: 0.9963
+Epoch 30/200
+16001/16001 - 31s - loss: 0.0284 - sparse_categorical_accuracy: 0.9903 - val_loss: 0.0256 - val_sparse_categorical_accuracy: 0.9925
+Epoch 31/200
+16001/16001 - 31s - loss: 0.0270 - sparse_categorical_accuracy: 0.9911 - val_loss: 0.0306 - val_sparse_categorical_accuracy: 0.9888
+Epoch 32/200
+16001/16001 - 31s - loss: 0.0268 - sparse_categorical_accuracy: 0.9913 - val_loss: 0.0164 - val_sparse_categorical_accuracy: 0.9938
+Epoch 33/200
+16001/16001 - 31s - loss: 0.0208 - sparse_categorical_accuracy: 0.9928 - val_loss: 0.0216 - val_sparse_categorical_accuracy: 0.9938
+Epoch 34/200
+16001/16001 - 31s - loss: 0.0324 - sparse_categorical_accuracy: 0.9888 - val_loss: 0.0256 - val_sparse_categorical_accuracy: 0.9938
+Epoch 35/200
+16001/16001 - 32s - loss: 0.0299 - sparse_categorical_accuracy: 0.9906 - val_loss: 0.0105 - val_sparse_categorical_accuracy: 0.9963
+Epoch 36/200
+16001/16001 - 31s - loss: 0.0126 - sparse_categorical_accuracy: 0.9957 - val_loss: 0.0183 - val_sparse_categorical_accuracy: 0.9938
+Epoch 37/200
+16001/16001 - 32s - loss: 0.0161 - sparse_categorical_accuracy: 0.9946 - val_loss: 0.0089 - val_sparse_categorical_accuracy: 0.9975
+Epoch 38/200
+16001/16001 - 31s - loss: 0.0244 - sparse_categorical_accuracy: 0.9924 - val_loss: 0.0179 - val_sparse_categorical_accuracy: 0.9938
+Epoch 39/200
+16001/16001 - 31s - loss: 0.0213 - sparse_categorical_accuracy: 0.9930 - val_loss: 0.0247 - val_sparse_categorical_accuracy: 0.9888
+Epoch 40/200
+16001/16001 - 32s - loss: 0.0175 - sparse_categorical_accuracy: 0.9947 - val_loss: 0.0077 - val_sparse_categorical_accuracy: 0.9975
+Epoch 41/200
+16001/16001 - 31s - loss: 0.0203 - sparse_categorical_accuracy: 0.9934 - val_loss: 0.0122 - val_sparse_categorical_accuracy: 0.9963
+Epoch 42/200
+16001/16001 - 31s - loss: 0.0175 - sparse_categorical_accuracy: 0.9945 - val_loss: 0.0251 - val_sparse_categorical_accuracy: 0.9913
+Epoch 43/200
+16001/16001 - 32s - loss: 0.0149 - sparse_categorical_accuracy: 0.9947 - val_loss: 0.0149 - val_sparse_categorical_accuracy: 0.9950
+Epoch 44/200
+16001/16001 - 32s - loss: 0.0129 - sparse_categorical_accuracy: 0.9957 - val_loss: 0.0293 - val_sparse_categorical_accuracy: 0.9900
+Epoch 45/200
+16001/16001 - 31s - loss: 0.0126 - sparse_categorical_accuracy: 0.9963 - val_loss: 0.0132 - val_sparse_categorical_accuracy: 0.9950
+Epoch 46/200
+16001/16001 - 31s - loss: 0.0115 - sparse_categorical_accuracy: 0.9964 - val_loss: 0.0315 - val_sparse_categorical_accuracy: 0.9913
+Epoch 47/200
+16001/16001 - 31s - loss: 0.0151 - sparse_categorical_accuracy: 0.9944 - val_loss: 0.0168 - val_sparse_categorical_accuracy: 0.9963
+Epoch 48/200
+16001/16001 - 32s - loss: 0.0132 - sparse_categorical_accuracy: 0.9953 - val_loss: 0.0053 - val_sparse_categorical_accuracy: 0.9975
+Epoch 49/200
+16001/16001 - 31s - loss: 0.0135 - sparse_categorical_accuracy: 0.9954 - val_loss: 0.0345 - val_sparse_categorical_accuracy: 0.9875
+Epoch 50/200
+16001/16001 - 31s - loss: 0.0184 - sparse_categorical_accuracy: 0.9949 - val_loss: 0.0256 - val_sparse_categorical_accuracy: 0.9938
+Epoch 51/200
+16001/16001 - 31s - loss: 0.0111 - sparse_categorical_accuracy: 0.9966 - val_loss: 0.0069 - val_sparse_categorical_accuracy: 0.9963
+Epoch 52/200
+16001/16001 - 31s - loss: 0.0211 - sparse_categorical_accuracy: 0.9930 - val_loss: 0.0243 - val_sparse_categorical_accuracy: 0.9925
+Epoch 53/200
+16001/16001 - 31s - loss: 0.0105 - sparse_categorical_accuracy: 0.9971 - val_loss: 0.0250 - val_sparse_categorical_accuracy: 0.9925
+Epoch 54/200
+16001/16001 - 31s - loss: 0.0075 - sparse_categorical_accuracy: 0.9977 - val_loss: 0.0135 - val_sparse_categorical_accuracy: 0.9950
+Epoch 55/200
+16001/16001 - 31s - loss: 0.0045 - sparse_categorical_accuracy: 0.9984 - val_loss: 0.0087 - val_sparse_categorical_accuracy: 0.9963
+Epoch 56/200
+16001/16001 - 31s - loss: 0.0152 - sparse_categorical_accuracy: 0.9957 - val_loss: 0.0794 - val_sparse_categorical_accuracy: 0.9750
+Epoch 57/200
+16001/16001 - 31s - loss: 0.0249 - sparse_categorical_accuracy: 0.9919 - val_loss: 0.0061 - val_sparse_categorical_accuracy: 0.9988
+Epoch 58/200
+16001/16001 - 31s - loss: 0.0097 - sparse_categorical_accuracy: 0.9969 - val_loss: 0.0095 - val_sparse_categorical_accuracy: 0.9963
+Epoch 59/200
+16001/16001 - 31s - loss: 0.0091 - sparse_categorical_accuracy: 0.9969 - val_loss: 0.0098 - val_sparse_categorical_accuracy: 0.9950
+Epoch 60/200
+16001/16001 - 32s - loss: 0.0135 - sparse_categorical_accuracy: 0.9956 - val_loss: 0.0259 - val_sparse_categorical_accuracy: 0.9900
+Epoch 61/200
+16001/16001 - 31s - loss: 0.0059 - sparse_categorical_accuracy: 0.9984 - val_loss: 0.0118 - val_sparse_categorical_accuracy: 0.9950
+Epoch 62/200
+16001/16001 - 31s - loss: 0.0087 - sparse_categorical_accuracy: 0.9970 - val_loss: 0.0061 - val_sparse_categorical_accuracy: 0.9988
+Epoch 63/200
+16001/16001 - 31s - loss: 0.0077 - sparse_categorical_accuracy: 0.9974 - val_loss: 0.0152 - val_sparse_categorical_accuracy: 0.9950
+Epoch 64/200
+16001/16001 - 31s - loss: 0.0043 - sparse_categorical_accuracy: 0.9987 - val_loss: 0.0300 - val_sparse_categorical_accuracy: 0.9925
+Epoch 65/200
+16001/16001 - 31s - loss: 0.0124 - sparse_categorical_accuracy: 0.9955 - val_loss: 0.0144 - val_sparse_categorical_accuracy: 0.9963
+Epoch 66/200
+16001/16001 - 31s - loss: 0.0073 - sparse_categorical_accuracy: 0.9982 - val_loss: 0.0228 - val_sparse_categorical_accuracy: 0.9950
+Epoch 67/200
+16001/16001 - 31s - loss: 0.0174 - sparse_categorical_accuracy: 0.9951 - val_loss: 0.0080 - val_sparse_categorical_accuracy: 0.9963
+Epoch 68/200
+16001/16001 - 32s - loss: 0.0111 - sparse_categorical_accuracy: 0.9961 - val_loss: 0.0040 - val_sparse_categorical_accuracy: 0.9975
+Epoch 69/200
+16001/16001 - 32s - loss: 0.0096 - sparse_categorical_accuracy: 0.9973 - val_loss: 0.0189 - val_sparse_categorical_accuracy: 0.9938
+Epoch 70/200
+16001/16001 - 31s - loss: 0.0131 - sparse_categorical_accuracy: 0.9965 - val_loss: 0.0260 - val_sparse_categorical_accuracy: 0.9925
+Epoch 71/200
+16001/16001 - 31s - loss: 0.0074 - sparse_categorical_accuracy: 0.9977 - val_loss: 0.0073 - val_sparse_categorical_accuracy: 0.9950
+Epoch 72/200
+16001/16001 - 32s - loss: 0.0082 - sparse_categorical_accuracy: 0.9977 - val_loss: 0.0294 - val_sparse_categorical_accuracy: 0.9913
+Epoch 73/200
+16001/16001 - 32s - loss: 0.0132 - sparse_categorical_accuracy: 0.9964 - val_loss: 0.0226 - val_sparse_categorical_accuracy: 0.9938
+Epoch 74/200
+16001/16001 - 31s - loss: 0.0063 - sparse_categorical_accuracy: 0.9981 - val_loss: 0.0149 - val_sparse_categorical_accuracy: 0.9950
+Epoch 75/200
+16001/16001 - 31s - loss: 0.0102 - sparse_categorical_accuracy: 0.9963 - val_loss: 0.0267 - val_sparse_categorical_accuracy: 0.9950
+Epoch 76/200
+16001/16001 - 31s - loss: 0.0080 - sparse_categorical_accuracy: 0.9975 - val_loss: 0.0349 - val_sparse_categorical_accuracy: 0.9938
+Epoch 77/200
+16001/16001 - 31s - loss: 0.0039 - sparse_categorical_accuracy: 0.9989 - val_loss: 0.0349 - val_sparse_categorical_accuracy: 0.9913
+Epoch 78/200
+16001/16001 - 31s - loss: 0.0103 - sparse_categorical_accuracy: 0.9972 - val_loss: 0.0380 - val_sparse_categorical_accuracy: 0.9888
+Epoch 79/200
+16001/16001 - 31s - loss: 0.0223 - sparse_categorical_accuracy: 0.9933 - val_loss: 0.0244 - val_sparse_categorical_accuracy: 0.9938
+Epoch 80/200
+16001/16001 - 32s - loss: 0.0077 - sparse_categorical_accuracy: 0.9978 - val_loss: 0.0228 - val_sparse_categorical_accuracy: 0.9950
+Epoch 81/200
+16001/16001 - 31s - loss: 0.0037 - sparse_categorical_accuracy: 0.9992 - val_loss: 0.0301 - val_sparse_categorical_accuracy: 0.9938
+Epoch 82/200
+16001/16001 - 31s - loss: 0.0125 - sparse_categorical_accuracy: 0.9959 - val_loss: 0.0306 - val_sparse_categorical_accuracy: 0.9900
+Epoch 83/200
+16001/16001 - 32s - loss: 0.0094 - sparse_categorical_accuracy: 0.9969 - val_loss: 0.0136 - val_sparse_categorical_accuracy: 0.9950
+Epoch 84/200
+16001/16001 - 31s - loss: 0.0067 - sparse_categorical_accuracy: 0.9983 - val_loss: 0.0147 - val_sparse_categorical_accuracy: 0.9925
+Epoch 85/200
+16001/16001 - 31s - loss: 0.0083 - sparse_categorical_accuracy: 0.9973 - val_loss: 0.0284 - val_sparse_categorical_accuracy: 0.9938
+Epoch 86/200
+16001/16001 - 31s - loss: 0.0122 - sparse_categorical_accuracy: 0.9961 - val_loss: 0.0324 - val_sparse_categorical_accuracy: 0.9950
+Epoch 87/200
+16001/16001 - 31s - loss: 0.0077 - sparse_categorical_accuracy: 0.9973 - val_loss: 0.0468 - val_sparse_categorical_accuracy: 0.9925
+Epoch 88/200
+16001/16001 - 31s - loss: 0.0107 - sparse_categorical_accuracy: 0.9968 - val_loss: 0.0029 - val_sparse_categorical_accuracy: 1.0000
+Epoch 89/200
+16001/16001 - 31s - loss: 0.0099 - sparse_categorical_accuracy: 0.9966 - val_loss: 0.0025 - val_sparse_categorical_accuracy: 0.9988
+Epoch 90/200
+16001/16001 - 31s - loss: 0.0065 - sparse_categorical_accuracy: 0.9981 - val_loss: 0.0143 - val_sparse_categorical_accuracy: 0.9913
+Epoch 91/200
+16001/16001 - 31s - loss: 0.0081 - sparse_categorical_accuracy: 0.9979 - val_loss: 0.0128 - val_sparse_categorical_accuracy: 0.9950
+Epoch 92/200
+16001/16001 - 31s - loss: 0.0064 - sparse_categorical_accuracy: 0.9983 - val_loss: 0.0094 - val_sparse_categorical_accuracy: 0.9950
+Epoch 93/200
+16001/16001 - 31s - loss: 0.0020 - sparse_categorical_accuracy: 0.9994 - val_loss: 0.0119 - val_sparse_categorical_accuracy: 0.9963
+Epoch 94/200
+16001/16001 - 31s - loss: 0.0119 - sparse_categorical_accuracy: 0.9964 - val_loss: 0.0199 - val_sparse_categorical_accuracy: 0.9925
+Epoch 95/200
+16001/16001 - 31s - loss: 0.0086 - sparse_categorical_accuracy: 0.9973 - val_loss: 0.0157 - val_sparse_categorical_accuracy: 0.9938
+Epoch 96/200
+16001/16001 - 31s - loss: 0.0132 - sparse_categorical_accuracy: 0.9958 - val_loss: 0.0269 - val_sparse_categorical_accuracy: 0.9925
+Epoch 97/200
+16001/16001 - 31s - loss: 0.0130 - sparse_categorical_accuracy: 0.9958 - val_loss: 0.0070 - val_sparse_categorical_accuracy: 0.9975
+Epoch 98/200
+16001/16001 - 31s - loss: 0.0100 - sparse_categorical_accuracy: 0.9968 - val_loss: 0.0149 - val_sparse_categorical_accuracy: 0.9938
+Epoch 99/200
+16001/16001 - 31s - loss: 0.0120 - sparse_categorical_accuracy: 0.9965 - val_loss: 0.0184 - val_sparse_categorical_accuracy: 0.9938
+Epoch 100/200
+16001/16001 - 31s - loss: 0.0042 - sparse_categorical_accuracy: 0.9987 - val_loss: 0.0103 - val_sparse_categorical_accuracy: 0.9975
+Epoch 101/200
+16001/16001 - 31s - loss: 0.0084 - sparse_categorical_accuracy: 0.9975 - val_loss: 0.0165 - val_sparse_categorical_accuracy: 0.9963
+Epoch 102/200
+16001/16001 - 31s - loss: 0.0053 - sparse_categorical_accuracy: 0.9981 - val_loss: 0.0141 - val_sparse_categorical_accuracy: 0.9950
+Epoch 103/200
+16001/16001 - 31s - loss: 0.0039 - sparse_categorical_accuracy: 0.9987 - val_loss: 0.0300 - val_sparse_categorical_accuracy: 0.9925
+Epoch 104/200
+16001/16001 - 31s - loss: 0.0101 - sparse_categorical_accuracy: 0.9973 - val_loss: 0.0146 - val_sparse_categorical_accuracy: 0.9938
+Epoch 105/200
+16001/16001 - 31s - loss: 0.0135 - sparse_categorical_accuracy: 0.9961 - val_loss: 0.0058 - val_sparse_categorical_accuracy: 0.9963
+Epoch 106/200
+16001/16001 - 31s - loss: 0.0067 - sparse_categorical_accuracy: 0.9974 - val_loss: 0.0089 - val_sparse_categorical_accuracy: 0.9975
+Epoch 107/200
+16001/16001 - 31s - loss: 0.0041 - sparse_categorical_accuracy: 0.9989 - val_loss: 0.1075 - val_sparse_categorical_accuracy: 0.9913
+Epoch 108/200
+16001/16001 - 31s - loss: 0.0116 - sparse_categorical_accuracy: 0.9970 - val_loss: 0.0263 - val_sparse_categorical_accuracy: 0.9913
+Epoch 109/200
+16001/16001 - 31s - loss: 0.0106 - sparse_categorical_accuracy: 0.9970 - val_loss: 0.0125 - val_sparse_categorical_accuracy: 0.9963
+Epoch 110/200
+16001/16001 - 32s - loss: 0.0176 - sparse_categorical_accuracy: 0.9949 - val_loss: 0.0114 - val_sparse_categorical_accuracy: 0.9963
+Epoch 111/200
+16001/16001 - 31s - loss: 0.0110 - sparse_categorical_accuracy: 0.9962 - val_loss: 0.0456 - val_sparse_categorical_accuracy: 0.9888
+Epoch 112/200
+16001/16001 - 31s - loss: 0.0106 - sparse_categorical_accuracy: 0.9966 - val_loss: 0.0177 - val_sparse_categorical_accuracy: 0.9938
+Epoch 113/200
+16001/16001 - 31s - loss: 0.0062 - sparse_categorical_accuracy: 0.9976 - val_loss: 0.0222 - val_sparse_categorical_accuracy: 0.9938
+Epoch 114/200
+16001/16001 - 31s - loss: 0.0130 - sparse_categorical_accuracy: 0.9962 - val_loss: 0.0303 - val_sparse_categorical_accuracy: 0.9950
+Epoch 115/200
+16001/16001 - 31s - loss: 0.0105 - sparse_categorical_accuracy: 0.9971 - val_loss: 0.0061 - val_sparse_categorical_accuracy: 0.9988
+Epoch 116/200
+16001/16001 - 31s - loss: 0.0060 - sparse_categorical_accuracy: 0.9982 - val_loss: 0.0187 - val_sparse_categorical_accuracy: 0.9938
+Epoch 117/200
+16001/16001 - 31s - loss: 0.0085 - sparse_categorical_accuracy: 0.9977 - val_loss: 0.0070 - val_sparse_categorical_accuracy: 0.9950
+Epoch 118/200
+16001/16001 - 31s - loss: 0.0094 - sparse_categorical_accuracy: 0.9972 - val_loss: 0.0089 - val_sparse_categorical_accuracy: 0.9975
+Epoch 119/200
+16001/16001 - 31s - loss: 0.0087 - sparse_categorical_accuracy: 0.9973 - val_loss: 0.0399 - val_sparse_categorical_accuracy: 0.9925
+Epoch 120/200
+16001/16001 - 31s - loss: 0.0083 - sparse_categorical_accuracy: 0.9977 - val_loss: 0.0266 - val_sparse_categorical_accuracy: 0.9950
+Epoch 121/200
+16001/16001 - 31s - loss: 0.0128 - sparse_categorical_accuracy: 0.9962 - val_loss: 0.0433 - val_sparse_categorical_accuracy: 0.9950
+Epoch 122/200
+16001/16001 - 33s - loss: 0.0210 - sparse_categorical_accuracy: 0.9930 - val_loss: 0.0457 - val_sparse_categorical_accuracy: 0.9863
+Epoch 123/200
+16001/16001 - 31s - loss: 0.0116 - sparse_categorical_accuracy: 0.9961 - val_loss: 0.0247 - val_sparse_categorical_accuracy: 0.9938
+Epoch 124/200
+16001/16001 - 31s - loss: 0.0060 - sparse_categorical_accuracy: 0.9979 - val_loss: 0.0091 - val_sparse_categorical_accuracy: 0.9988
+Epoch 125/200
+16001/16001 - 31s - loss: 0.0048 - sparse_categorical_accuracy: 0.9986 - val_loss: 0.0288 - val_sparse_categorical_accuracy: 0.9913
+Epoch 126/200
+16001/16001 - 31s - loss: 0.0057 - sparse_categorical_accuracy: 0.9983 - val_loss: 0.0180 - val_sparse_categorical_accuracy: 0.9950
+Epoch 127/200
+16001/16001 - 31s - loss: 0.0068 - sparse_categorical_accuracy: 0.9984 - val_loss: 0.0344 - val_sparse_categorical_accuracy: 0.9925
+Epoch 128/200
+16001/16001 - 31s - loss: 0.0040 - sparse_categorical_accuracy: 0.9986 - val_loss: 0.0254 - val_sparse_categorical_accuracy: 0.9900
+Epoch 129/200
+16001/16001 - 31s - loss: 0.0081 - sparse_categorical_accuracy: 0.9976 - val_loss: 0.0612 - val_sparse_categorical_accuracy: 0.9913
+Epoch 130/200
+16001/16001 - 31s - loss: 0.0187 - sparse_categorical_accuracy: 0.9944 - val_loss: 0.0253 - val_sparse_categorical_accuracy: 0.9925
+Epoch 131/200
+16001/16001 - 31s - loss: 0.0085 - sparse_categorical_accuracy: 0.9978 - val_loss: 0.0163 - val_sparse_categorical_accuracy: 0.9975
+Epoch 132/200
+16001/16001 - 31s - loss: 0.0041 - sparse_categorical_accuracy: 0.9989 - val_loss: 0.0168 - val_sparse_categorical_accuracy: 0.9913
+Epoch 133/200
+16001/16001 - 31s - loss: 0.0252 - sparse_categorical_accuracy: 0.9933 - val_loss: 0.0313 - val_sparse_categorical_accuracy: 0.9913
+Epoch 134/200
+16001/16001 - 31s - loss: 0.0102 - sparse_categorical_accuracy: 0.9968 - val_loss: 0.0212 - val_sparse_categorical_accuracy: 0.9950
+Epoch 135/200
+16001/16001 - 31s - loss: 0.0113 - sparse_categorical_accuracy: 0.9965 - val_loss: 0.0075 - val_sparse_categorical_accuracy: 0.9963
+Epoch 136/200
+16001/16001 - 31s - loss: 0.0100 - sparse_categorical_accuracy: 0.9969 - val_loss: 0.0242 - val_sparse_categorical_accuracy: 0.9913
+Epoch 137/200
+16001/16001 - 31s - loss: 0.0053 - sparse_categorical_accuracy: 0.9985 - val_loss: 0.0290 - val_sparse_categorical_accuracy: 0.9925
+Epoch 138/200
+16001/16001 - 31s - loss: 0.0084 - sparse_categorical_accuracy: 0.9976 - val_loss: 0.0271 - val_sparse_categorical_accuracy: 0.9888
+Epoch 139/200
+16001/16001 - 31s - loss: 0.0069 - sparse_categorical_accuracy: 0.9977 - val_loss: 0.0169 - val_sparse_categorical_accuracy: 0.9925
+Epoch 140/200
+16001/16001 - 31s - loss: 0.0102 - sparse_categorical_accuracy: 0.9968 - val_loss: 0.0357 - val_sparse_categorical_accuracy: 0.9838
+Epoch 141/200
+16001/16001 - 31s - loss: 0.0145 - sparse_categorical_accuracy: 0.9955 - val_loss: 0.0263 - val_sparse_categorical_accuracy: 0.9888
+Epoch 142/200
+16001/16001 - 31s - loss: 0.0127 - sparse_categorical_accuracy: 0.9963 - val_loss: 0.0175 - val_sparse_categorical_accuracy: 0.9938
+Epoch 143/200
+16001/16001 - 31s - loss: 0.0081 - sparse_categorical_accuracy: 0.9976 - val_loss: 0.0250 - val_sparse_categorical_accuracy: 0.9925
+Epoch 144/200
+16001/16001 - 31s - loss: 0.0191 - sparse_categorical_accuracy: 0.9935 - val_loss: 0.0111 - val_sparse_categorical_accuracy: 0.9950
+Epoch 145/200
+16001/16001 - 31s - loss: 0.0054 - sparse_categorical_accuracy: 0.9983 - val_loss: 0.0162 - val_sparse_categorical_accuracy: 0.9963
+Epoch 146/200
+16001/16001 - 31s - loss: 0.0040 - sparse_categorical_accuracy: 0.9987 - val_loss: 0.0196 - val_sparse_categorical_accuracy: 0.9925
+Epoch 147/200
+16001/16001 - 31s - loss: 0.0035 - sparse_categorical_accuracy: 0.9992 - val_loss: 0.0512 - val_sparse_categorical_accuracy: 0.9888
+Epoch 148/200
+16001/16001 - 31s - loss: 0.0154 - sparse_categorical_accuracy: 0.9950 - val_loss: 0.0202 - val_sparse_categorical_accuracy: 0.9938
+Epoch 149/200
+16001/16001 - 31s - loss: 0.0054 - sparse_categorical_accuracy: 0.9984 - val_loss: 0.0103 - val_sparse_categorical_accuracy: 0.9963
+Epoch 150/200
+16001/16001 - 31s - loss: 0.0028 - sparse_categorical_accuracy: 0.9991 - val_loss: 0.0210 - val_sparse_categorical_accuracy: 0.9950
+Epoch 151/200
+16001/16001 - 31s - loss: 0.0096 - sparse_categorical_accuracy: 0.9968 - val_loss: 0.0505 - val_sparse_categorical_accuracy: 0.9925
+Epoch 152/200
+16001/16001 - 31s - loss: 0.0064 - sparse_categorical_accuracy: 0.9979 - val_loss: 0.0443 - val_sparse_categorical_accuracy: 0.9863
+Epoch 153/200
+16001/16001 - 31s - loss: 0.0063 - sparse_categorical_accuracy: 0.9983 - val_loss: 0.0231 - val_sparse_categorical_accuracy: 0.9938
+Epoch 154/200
+16001/16001 - 31s - loss: 0.0050 - sparse_categorical_accuracy: 0.9987 - val_loss: 0.0358 - val_sparse_categorical_accuracy: 0.9913
+Epoch 155/200
+16001/16001 - 31s - loss: 0.0099 - sparse_categorical_accuracy: 0.9973 - val_loss: 0.0309 - val_sparse_categorical_accuracy: 0.9913
+Epoch 156/200
+16001/16001 - 31s - loss: 0.0094 - sparse_categorical_accuracy: 0.9973 - val_loss: 0.0370 - val_sparse_categorical_accuracy: 0.9938
+Epoch 157/200
+16001/16001 - 31s - loss: 0.0170 - sparse_categorical_accuracy: 0.9946 - val_loss: 0.0092 - val_sparse_categorical_accuracy: 0.9988
+Epoch 158/200
+16001/16001 - 31s - loss: 0.0032 - sparse_categorical_accuracy: 0.9991 - val_loss: 0.0199 - val_sparse_categorical_accuracy: 0.9938
+Epoch 159/200
+16001/16001 - 31s - loss: 0.0063 - sparse_categorical_accuracy: 0.9984 - val_loss: 0.0188 - val_sparse_categorical_accuracy: 0.9950
+Epoch 160/200
+16001/16001 - 31s - loss: 0.0099 - sparse_categorical_accuracy: 0.9978 - val_loss: 0.0151 - val_sparse_categorical_accuracy: 0.9963
+Epoch 161/200
+16001/16001 - 31s - loss: 0.0138 - sparse_categorical_accuracy: 0.9961 - val_loss: 0.0784 - val_sparse_categorical_accuracy: 0.9850
+Epoch 162/200
+16001/16001 - 31s - loss: 0.0093 - sparse_categorical_accuracy: 0.9972 - val_loss: 0.0056 - val_sparse_categorical_accuracy: 0.9988
+Epoch 163/200
+16001/16001 - 31s - loss: 0.0040 - sparse_categorical_accuracy: 0.9988 - val_loss: 0.0067 - val_sparse_categorical_accuracy: 0.9950
+Epoch 164/200
+16001/16001 - 31s - loss: 0.0035 - sparse_categorical_accuracy: 0.9990 - val_loss: 0.0273 - val_sparse_categorical_accuracy: 0.9938
+Epoch 165/200
+16001/16001 - 31s - loss: 0.0186 - sparse_categorical_accuracy: 0.9954 - val_loss: 0.0502 - val_sparse_categorical_accuracy: 0.9888
+Epoch 166/200
+16001/16001 - 32s - loss: 0.0172 - sparse_categorical_accuracy: 0.9953 - val_loss: 0.0140 - val_sparse_categorical_accuracy: 0.9963
+Epoch 167/200
+16001/16001 - 31s - loss: 0.0084 - sparse_categorical_accuracy: 0.9978 - val_loss: 0.0402 - val_sparse_categorical_accuracy: 0.9938
+Epoch 168/200
+16001/16001 - 31s - loss: 0.0065 - sparse_categorical_accuracy: 0.9978 - val_loss: 0.0368 - val_sparse_categorical_accuracy: 0.9950
+Epoch 169/200
+16001/16001 - 31s - loss: 0.0082 - sparse_categorical_accuracy: 0.9979 - val_loss: 0.0315 - val_sparse_categorical_accuracy: 0.9938
+Epoch 170/200
+16001/16001 - 31s - loss: 0.0144 - sparse_categorical_accuracy: 0.9958 - val_loss: 0.0422 - val_sparse_categorical_accuracy: 0.9888
+Epoch 171/200
+16001/16001 - 31s - loss: 0.0067 - sparse_categorical_accuracy: 0.9983 - val_loss: 0.0166 - val_sparse_categorical_accuracy: 0.9925
+Epoch 172/200
+16001/16001 - 31s - loss: 0.0026 - sparse_categorical_accuracy: 0.9991 - val_loss: 0.0289 - val_sparse_categorical_accuracy: 0.9925
+Epoch 173/200
+16001/16001 - 31s - loss: 0.0074 - sparse_categorical_accuracy: 0.9979 - val_loss: 0.0639 - val_sparse_categorical_accuracy: 0.9863
+Epoch 174/200
+16001/16001 - 31s - loss: 0.0182 - sparse_categorical_accuracy: 0.9948 - val_loss: 0.0352 - val_sparse_categorical_accuracy: 0.9913
+Epoch 175/200
+16001/16001 - 31s - loss: 0.0278 - sparse_categorical_accuracy: 0.9920 - val_loss: 0.0353 - val_sparse_categorical_accuracy: 0.9900
+Epoch 176/200
+16001/16001 - 31s - loss: 0.0100 - sparse_categorical_accuracy: 0.9969 - val_loss: 0.0211 - val_sparse_categorical_accuracy: 0.9938
+Epoch 177/200
+16001/16001 - 31s - loss: 0.0065 - sparse_categorical_accuracy: 0.9981 - val_loss: 0.0259 - val_sparse_categorical_accuracy: 0.9900
+Epoch 178/200
+16001/16001 - 31s - loss: 0.0088 - sparse_categorical_accuracy: 0.9975 - val_loss: 0.0221 - val_sparse_categorical_accuracy: 0.9950
+Epoch 179/200
+16001/16001 - 31s - loss: 0.0144 - sparse_categorical_accuracy: 0.9956 - val_loss: 0.0206 - val_sparse_categorical_accuracy: 0.9938
+Epoch 180/200
+16001/16001 - 31s - loss: 0.0048 - sparse_categorical_accuracy: 0.9985 - val_loss: 0.0126 - val_sparse_categorical_accuracy: 0.9950
+Epoch 181/200
+16001/16001 - 31s - loss: 0.0063 - sparse_categorical_accuracy: 0.9979 - val_loss: 0.0307 - val_sparse_categorical_accuracy: 0.9925
+Epoch 182/200
+16001/16001 - 31s - loss: 0.0044 - sparse_categorical_accuracy: 0.9986 - val_loss: 0.0271 - val_sparse_categorical_accuracy: 0.9925
+Epoch 183/200
+16001/16001 - 31s - loss: 0.0038 - sparse_categorical_accuracy: 0.9990 - val_loss: 0.0275 - val_sparse_categorical_accuracy: 0.9938
+Epoch 184/200
+16001/16001 - 31s - loss: 0.0022 - sparse_categorical_accuracy: 0.9996 - val_loss: 0.0095 - val_sparse_categorical_accuracy: 0.9963
+Epoch 185/200
+16001/16001 - 31s - loss: 0.0017 - sparse_categorical_accuracy: 0.9998 - val_loss: 0.0221 - val_sparse_categorical_accuracy: 0.9963
+Epoch 186/200
+16001/16001 - 31s - loss: 0.0136 - sparse_categorical_accuracy: 0.9961 - val_loss: 0.0227 - val_sparse_categorical_accuracy: 0.9950
+Epoch 187/200
+16001/16001 - 31s - loss: 0.0088 - sparse_categorical_accuracy: 0.9971 - val_loss: 0.0190 - val_sparse_categorical_accuracy: 0.9963
+Epoch 188/200
+16001/16001 - 31s - loss: 0.0116 - sparse_categorical_accuracy: 0.9968 - val_loss: 0.0213 - val_sparse_categorical_accuracy: 0.9950
+Epoch 189/200
+16001/16001 - 31s - loss: 0.0095 - sparse_categorical_accuracy: 0.9971 - val_loss: 0.0354 - val_sparse_categorical_accuracy: 0.9938
+Epoch 190/200
+16001/16001 - 31s - loss: 0.0048 - sparse_categorical_accuracy: 0.9988 - val_loss: 0.0206 - val_sparse_categorical_accuracy: 0.9963
+Epoch 191/200
+16001/16001 - 31s - loss: 0.0084 - sparse_categorical_accuracy: 0.9972 - val_loss: 0.0210 - val_sparse_categorical_accuracy: 0.9975
+Epoch 192/200
+16001/16001 - 31s - loss: 0.0085 - sparse_categorical_accuracy: 0.9976 - val_loss: 0.0046 - val_sparse_categorical_accuracy: 0.9975
+Epoch 193/200
+16001/16001 - 31s - loss: 0.0075 - sparse_categorical_accuracy: 0.9975 - val_loss: 0.0343 - val_sparse_categorical_accuracy: 0.9913
+Epoch 194/200
+16001/16001 - 31s - loss: 0.0131 - sparse_categorical_accuracy: 0.9958 - val_loss: 0.0282 - val_sparse_categorical_accuracy: 0.9925
+Epoch 195/200
+16001/16001 - 31s - loss: 0.0072 - sparse_categorical_accuracy: 0.9976 - val_loss: 0.0227 - val_sparse_categorical_accuracy: 0.9925
+Epoch 196/200
+16001/16001 - 31s - loss: 0.0048 - sparse_categorical_accuracy: 0.9988 - val_loss: 0.0357 - val_sparse_categorical_accuracy: 0.9938
+Epoch 197/200
+16001/16001 - 31s - loss: 0.0229 - sparse_categorical_accuracy: 0.9937 - val_loss: 0.0565 - val_sparse_categorical_accuracy: 0.9838
+Epoch 198/200
+16001/16001 - 31s - loss: 0.0178 - sparse_categorical_accuracy: 0.9940 - val_loss: 0.0260 - val_sparse_categorical_accuracy: 0.9938
+Epoch 199/200
+16001/16001 - 31s - loss: 0.0046 - sparse_categorical_accuracy: 0.9985 - val_loss: 0.0235 - val_sparse_categorical_accuracy: 0.9950
+Epoch 200/200
+16001/16001 - 31s - loss: 0.0057 - sparse_categorical_accuracy: 0.9983 - val_loss: 0.0221 - val_sparse_categorical_accuracy: 0.9950
+1601/1 [==============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================] - 1s 832us/sample - loss: 0.0170 - sparse_categorical_accuracy: 0.9913
+[0.033900167418312616, 0.99125546]
