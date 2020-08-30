@@ -8,6 +8,6 @@ The radar emits RF waves which is reflected by object (hand) performing gesture 
 This processed data is used to train different machine learning algorithms.
 the same is now commercially available in smart phone
 
-[![Watch the video]https://i.ytimg.com/an_webp/hwEDIya5bx0/mqdefault_6s.webp?du=3000&sqp=COz8q_oF&rs=AOn4CLDaCZ3shHDHRVpc8GFrUPx-K7JB5w)](https://www.youtube.com/watch?v=hwEDIya5bx0)
+[![Watch the video](https://i.ytimg.com/an_webp/hwEDIya5bx0/mqdefault_6s.webp?du=3000&sqp=COz8q_oF&rs=AOn4CLDaCZ3shHDHRVpc8GFrUPx-K7JB5w)](https://www.youtube.com/watch?v=hwEDIya5bx0)
 
 The above repository is based on the paper[https://github.com/simonwsw/deep-soli] and the dataset available.
